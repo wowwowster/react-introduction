@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
 import React from "react";
-import { TestComponent } from "./TestComponent";  // Testez avec ce nouveau composant
+import { App } from "./App";  
 
 const rootDiv = document.getElementById("root");
 const reactRoot = ReactDOM.createRoot(rootDiv);
 
-reactRoot.render(<TestComponent />);
+reactRoot.render(<App />);
 
 
 //importer les outils React
