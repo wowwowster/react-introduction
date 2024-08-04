@@ -1,5 +1,10 @@
 import React from 'react';
+import { AgeCounter } from './AgeCounter';
 
 export function App () {
-  return "hello";
+  return (
+    <>
+      <AgeCounter />
+    </>
+  );
 }
